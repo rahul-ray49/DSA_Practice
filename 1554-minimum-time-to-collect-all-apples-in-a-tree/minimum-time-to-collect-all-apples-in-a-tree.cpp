@@ -4,7 +4,7 @@ public:
         vis[node]=1;
         int time=0;
         for(auto ele : adj[node]){
-            if(vis[ele]) continue;
+            if(vis[ele] || ele==node) continue;
             time+=dfs(adj,ele,hasApple,vis);
         }
         if(hasApple[node] || time >0 ) time+=2;
