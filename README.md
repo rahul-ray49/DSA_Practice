@@ -1,0 +1,1 @@
+A collection of my DSA solutions covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, dynamic programming, greedy algorithms, and more. This folder tracks my problem-solving practice and coding progress.
